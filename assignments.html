@@ -340,6 +340,192 @@
                 </tr>
             </tbody>
         </table>
+
+        <h2>Week 3: Flask</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>#</td>
+                    <td>Assignment</td>
+                    <td>Submission</td>
+                    <td>Time (hours)</td>
+                    <td>Difficult (1-5)</td>
+                    <td>Useful (1-5)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3.1</td>
+                    <td>Watch the week 3 tutorial videos.</td>
+                    <td class="empty">N/A</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.2</td>
+                    <td>Instead of modeling a post as a tuple of two strings like ("rover", "Hello world!"), make it a dictionary with keys "handle" and "text", like {"handle":"rover", "text":"Hello World!"}.  Update the templates accordingly so the app still works.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.3</td>
+                    <td>Add data to the fake_data.py file indicating which dogs have "liked" each others posts.  In the website, display the number of likes by each post.  Make it possible to look at a given post and find out which other dogs liked it.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.4*</td>
+                    <td>Add a timestamp to each post in the fake_data.py file indicating when the post happened (you can make up the times).  In the user interface, display plain English text to show how long ago the post was made, e.g. "1 minute ago", "yesterday", or "73 days ago"</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.5</td>
+                    <td>Allow dogs to "@ mention" each other in their posts: if post text contains the handle for a dog, like "@melba", automatically convert that text into a link to the corresponding dog's profile.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.6*</td>
+                    <td>Rather than putting the made-up data for DogChat directly in a Python file, store it in spreadsheets. For example, create a "dogs" spreadsheet (in Excel, Google Sheets, or otherwise) with columns "name", "handle", "bio", "age", and so on.  Then create a "posts" spreadsheet with columns "handle", "text", and so on.  When a user requests a page, e.g. they navigate to 127.0.0.1:5000/, the Python code should read the relevant files, load the data, and then return the rendered HTML.  This won't add any functionality to the app, but will prepare you well for next week when we load the data for the app from a database.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.7*</td>
+                    <td>Create a website version of problem 2.8 from last week, which unscrambles english words.  For instance, if you navigate to 127.0.0.1:5000/unscramble/eilnst, you see a webpage that lists the English words which are scrambled versions of the string "eilnst".  These are "enlist","listen","silent","tinsel".</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.8*</td>
+                    <td>Use Flask to create a basic choose your own adventure game (see assignments 2.9 and 2.10 from last time).</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.9*</td>
+                    <td>Build at least two views (pages) of the app of your choice in Flask.  Create some fake data in Python and use it to populate the pages</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.A</td>
+                    <td>What did you like this week?</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>3.B</td>
+                    <td>What didn't you like this week?</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>3.C</td>
+                    <td>How can we improve the material from this week?</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>3.D*</td>
+                    <td>Show us anything else you coded up this week!</td>
+                    <td colspan="4"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Week 4: Cloud & Databases</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>#</td>
+                    <td>Assignment</td>
+                    <td>Submission</td>
+                    <td>Time (hours)</td>
+                    <td>Difficult (1-5)</td>
+                    <td>Useful (1-5)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>4.1</td>
+                    <td>Watch the week 4 tutorial videos.</td>
+                    <td class="empty">N/A</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.2</td>
+                    <td>Deploy at least one Python/Flask app to Microsoft Azure as shown in tutorial video 4-2 above.  Ideally, deploy all of your assignments from week 3, so you can link them in the week 3 assignment page.  You can deploy your own copy of DogChat, an app you are working on, or anything else.  Just make sure you can do it!</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.3</td>
+                    <td>Create a SQL Server database in Microsoft Azure, and use it to supply data for at least one page on your app.  As your submission, link to the relevant page of your deployed app.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.4*</td>
+                    <td>Extend the work on the DogChat app of tutorial 4-7 and 4-8 to make visible the list of dogs who liked any post, not just the number of posts.  </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.5*</td>
+                    <td> Deploy your app to a cloud platform other than Azure (some possible choices include Heroku, Amazon Web Services, Digital Ocean, or Google Cloud Platform)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4.A</td>
+                    <td>What did you like this week?</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>4.B</td>
+                    <td>What didn't you like this week?</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>4.C</td>
+                    <td>How can we improve the material from this week?</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>4.D*</td>
+                    <td>Show us anything else you coded up this week!</td>
+                    <td colspan="4"></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     </body>
 </html>
